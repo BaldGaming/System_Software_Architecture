@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>Text test</title>
+        <title>Some bullshit</title>
     </head>
 
     <body style = "background-color : #92dbff">
-        <h1>Enter your message below:</h1>
+        <h1>Idk, fill this form or some shit:</h1>
     
     <div>
         What's your name?: <input type="text" id="fname" value="enter your name"
@@ -13,7 +13,31 @@
 
         <textarea id="txt1" rows="8" cols="35" 
             onfocus = "if(this.value == 'Click here and type') { this.value = ''; }"
-            onblur = "if(this.value == '') { this.value = 'Click here and type'; }">Click here and type</textarea>
+            onblur = "if(this.value == '') { this.value = 'Click here and type'; }">Click here and type</textarea></br></br>
+        
 
+        <u style = "font-size: 20">Please select your level of stupid:</u></br>
+        <input type="radio" id="lvl1" name="intelligence" value=“option1">Kinda stupid..</br>
+        <input type="radio" id="lvl2" name="intelligence" value="option2">Pretty stupid?</br>
+        <input type="radio" id="lvl3" name="intelligence" value="option3">Should not be left alone</br>
+        <input type="radio" id="lvl3" name="intelligence" value="option4">Toaster level intelligence.</br></br>
+
+
+        <u style = "font-size: 20">What is/are your favorite color/s?:</u></br>
+        <input type="checkbox" id="color1" name="color" value="option1">I don't like colors (loser)</br>
+        <input type="checkbox" id="color2" name="color" value="option2">Red</br>
+        <input type="checkbox" id="color3" name="color" value="option3">Banana</br>
+        <input type="checkbox" id="color4" name="color" value="option4">Green</br>
+        <input type="checkbox" id="color5" name="color" value="option5">Uranium-235</br></br>
+
+        <u style = "font-size: 20">Please select your preffered method of torture:</u></br>
+        <select id="torture" name="torture">
+            <option value="option1">None (you pussy)</option>
+            <option value="option2">The Rack</option>
+            <option value="option3">The Breaking Wheel</option>
+            <option value="option4">The Brazen Bull</option>
+        </select></br></br>
+
+        <input type="submit" value="Submit">
     </body>
 </html>
