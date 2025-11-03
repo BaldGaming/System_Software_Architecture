@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Text test</title>
+    </head>
+
+    <body style = "background-color : #92dbff">
+        <h1>Enter your message below:</h1>
+    
+    <div>
+        What's your name?: <input type="text" id="fname" value="enter your name"
+            onfocus = "if(this.value == 'enter your name') { this.value = ''; }"
+            onblur = "if(this.value == '') { this.value = 'enter your name'; }"><br><br>
+
+        <textarea id="txt1" rows="8" cols="35" 
+            onfocus = "if(this.value == 'Click here and type') { this.value = ''; }"
+            onblur = "if(this.value == '') { this.value = 'Click here and type'; }">Click here and type</textarea>
+
+    </body>
+</html>
