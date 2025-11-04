@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>CV generator</title>
+        <style>
+            .alignment
+            {
+                display: flex;
+                justify-content: space-between;
+                width: 515px;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color : #92dbff">
+
+        <!-- Title and subtitle -->
+        <div>
+            <h1>CV Generator</h1>
+            <h3 style="color : blue">Please fill the following form</h3>
+        </div>
+
+        <!-- First and last name fields -->
+        <div>
+            First name: <input type="text" id="fname" value="" style="margin-right: 50px">
+            Last name: <input type="text" id="lname" value=""></br></br>
+        </div>
+
+        <div>
+            <textarea id="txt1" rows="8" cols="35">insert your message</textarea></br>
+        </div>
+
+        <!-- History fields -->
+        <div class="alignment">
+            Education:
+            <div>
+                <input type="checkbox" id="b.sc" name="education" value="B.Sc"><label for="b.sc">B.Sc</label>
+                <input type="checkbox" id="b.a" name="education" value="B.A"><label for="b.a">B.A</label>
+                <input type="checkbox" id="m.sc" name="education" value="M.Sc"><label for="m.sc">M.Sc</label>
+                <input type="checkbox" id="ph.d" name="education" value="Ph.D"><label for="ph.d">Ph.D</label>
+            </div>
+        </div>
+
+        <div class="alignment">
+            </br>Experience:
+            <div>
+                <div style="margin-right: 137px"><input type="radio" id="exp1" name="experience" value="0-3">0-3 years</div>
+                <div style="margin-right: 137px"><input type="radio" id="exp2" name="experience" value="4-7">4-7 years</div>
+                <div style="margin-right: 83px"><input type="radio" id="exp3" name="experience" value="7+">more then 7 years</div>
+            </div>
+        </div>
+
+        <div class="alignment">
+            </br>what is your favorite programming language?
+            <div style="margin-right: 150px"></br>
+                <select id="torture" name="torture">
+                <option value="option1">C/C++</option>
+                <option value="option2">Python</option>
+                <option value="option3">Java</option>
+                <option value="option4">Ruby</option>
+                </select></br></br>
+            </div>
+        </div>
+
+        <!-- Flower selection and submition -->
+        <div>
+            <span style="background-color: yellow;">
+            Please select your favorite flower:</span></br>
+                <div>
+                    <input type="radio" id="img1" name="img" value="img1"><img src = "f1.jpg" width="100" height="100">
+                    <input type="radio" id="img1" name="img" value="img1"><img src = "f2.jpg" width="100" height="100">
+                </div>
+        </div>
+
+        </br><input type="submit" value="send">
+    </body>
+</html>
