@@ -1,0 +1,28 @@
+body {
+background-color: yellow;
+}
+
+
+#one {
+text-align: left;
+}
+
+#two {
+text-align: center;
+}
+
+#three {
+text-align: right;
+}
+
+#name_one{
+    text-align: center;
+}
+
+#name_two{
+    text-align: center;
+}
+
+#name_three{
+    text-align: center;
+}

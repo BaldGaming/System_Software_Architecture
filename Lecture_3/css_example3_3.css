@@ -1,0 +1,29 @@
+body {
+background-color: aqua;
+}
+
+#row {
+    color: white;
+    background-color: blue;
+    text-align : left;
+}
+
+#year{
+    min-width: 50px;
+}
+
+#place_number{
+    min-width: 200px;
+}
+
+#name{
+    min-width: 280px;
+}
+
+#year_prime{
+    min-width: 120px;
+}
+
+#img_prime{
+    min-width: 290px;
+}

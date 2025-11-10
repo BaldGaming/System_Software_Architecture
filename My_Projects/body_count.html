@@ -1,15 +1,23 @@
 <html>
     <head>
+        <!-- Cals script that holds functions that increments/resets the counter and changes "img"-->
+        <script src ="script.js"></script>
+        
         <title>Praise Allah</title>
+        <style type="text/css" id="operaUserStyle"></style><style type="text/css"></style>
     </head> 
 
-    <body>
-        <h1 style="text-align: center">Body count redemption™</h1></br>
+    <body style="background-color: white;">
+        <u><h1 style="text-align: center">Body count redemption™</h1></u><br>
         
+
+        <!-- Baddie text -->
+        <div style="text-align: center; font-size: 50px">
+            Number of baddies bagged:
+        </div>
+
         <!-- Number display -->
-        <div style="text-align: center; font-size: 75px" id="counter">
-            0
-        </div></br></br>
+        <div style="text-align: center; font-size: 75px" id="counter">0</div><br><br>
 
         <!-- Buttons -->
         <div style="text-align: center">
@@ -18,34 +26,11 @@
         </div>
 
         <!-- Image -->
-        <div style="text-align: center"></br></br>
+        <div style="text-align: center"><br><br>
             <img src="photos\allah.jpeg" width="500" height="500" id="img">
         </div>
 
-        <!-- Script that holds functions that increments/resets the counter and changes "img"-->
-        <script>
-            let counter = 0;
-
-            const GOOD = "photos\\allah.jpeg";
-            const BAD = "photos\\allah's_wrath.jpeg";
-
-            function add()
-            {
-                counter++; 
-                document.getElementById('counter').textContent = counter;
-            
-                if (counter != 0)
-                    document.getElementById('img').src = BAD;
-            }
-
-            function reset()
-            {
-                counter = 0; 
-                document.getElementById('counter').textContent = counter;
-                document.getElementById('img').src = GOOD;
-            }
-            
-        </script>
 
     </body>
 </html>
+
