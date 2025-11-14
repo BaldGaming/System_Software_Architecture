@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>CV generator</title>
+        <link rel="stylesheet" href="css/cvGenerator.css">
+        <script src="js/cvGenerator.js"></script>
+        <style type="text/css" id="operaUserStyle"></style>
+    </head>
+
+    <body>
+
+        <!-- Title and subtitle -->
+        <div>
+            <h1>CV Generator</h1>
+            <h3 id = h3>Please fill the following form</h3>
+        </div>
+
+        <!-- First and last name fields -->
+        <div>
+            First name: <input type="text" id="fname">
+            Last name: <input type="text" id="lname"></br></br>
+        </div>
+
+        <div>
+            <textarea id="txt" rows="8" cols="35"></textarea></br>
+        </div>
+
+        <!-- History fields -->
+        <div id="history_alignment">
+            Education:
+            <div>
+                <input type="checkbox" id="b.sc" name="education" value="B.Sc"><label for="b.sc">B.Sc</label>
+                <input type="checkbox" id="b.a" name="education" value="B.A"><label for="b.a">B.A</label>
+                <input type="checkbox" id="m.sc" name="education" value="M.Sc"><label for="m.sc">M.Sc</label>
+                <input type="checkbox" id="ph.d" name="education" value="Ph.D"><label for="ph.d">Ph.D</label>
+            </div>
+        </div>
+
+        <div id="experience_alignment">
+            </br>Experience:
+            <div>
+                <div><input type="radio" id="exp1" name="experience" value="0-3">0-3 years</div>
+                <div><input type="radio" id="exp2" name="experience" value="4-7">4-7 years</div>
+                <div><input type="radio" id="exp3" name="experience" value="7+">more then 7 years</div>
+            </div>
+        </div>
+
+        <div id="language_alignment">
+            What is your favorite programming language?
+            <div>
+                <select id="language" name="language">
+                <option value="C/C++">C/C++</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Ruby">Ruby</option>
+                </select></br></br>
+            </div>
+        </div>
+
+        </br><button type="button" id="send" onclick="send_info()">send</button>
+        </br><div id="output_message">
+    </body>
+</html>
