@@ -1,0 +1,37 @@
+body {background-color: lightgreen;}
+
+#h3 {color : blue;}
+
+#fname {margin-right: 50px;}
+
+#history_alignment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 515px;
+    margin-bottom: 5px;
+}
+
+#experience_alignment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 434px;
+    margin-bottom: 5px;
+}
+
+#language_alignment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 368px;
+}
+
+#output_message {font-weight:bold; color:black}
+
+#map {
+    position: absolute; /* Allows the map to float independently of the form */
+    left: 10px;         /* Sticks it to the left edge (with a small gap) */
+    top: 150px;         /* Moves it down so it doesn't cover the Title */
+    /* REMOVED: margin-left: 1000px; */
+}

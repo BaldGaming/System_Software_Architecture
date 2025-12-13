@@ -1,0 +1,30 @@
+body {background-color: lightgreen;}
+
+#h3 {color : blue;}
+
+#fname {margin-right: 50px;}
+
+#history_alignment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 515px;
+    margin-bottom: 5px;
+}
+
+#experience_alignment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 434px;
+    margin-bottom: 5px;
+}
+
+#language_alignment
+{
+    display: flex;
+    justify-content: space-between;
+    width: 368px;
+}
+
+#output_message {font-weight:bold; color:black}
