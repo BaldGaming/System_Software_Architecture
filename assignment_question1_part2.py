@@ -65,7 +65,6 @@ class Data:
 class problemAdapter:
     def __init__(self, problem):
         self.problem = problem # Stores the original object
-
     # Translates "updateScore" into "addSeverity"
     def updateScore(self, severityScore):
         self.problem.addSeverity(severityScore)
